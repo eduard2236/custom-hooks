@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
-import { useCounter } from "./useCounter";
+import { todoReducer } from "./todoReducer";
+import { useCounter } from "../useCounter/useCounter";
 
 
 const initialState = [
